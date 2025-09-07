@@ -1,22 +1,33 @@
 {
   "expo": {
-    "name": "royalty-free-music-service-app",
-    "slug": "royalty-free-music-service-app",
+    "name": "Royalty Free Music Player",
+    "slug": "royalty-free-music-player",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "royaltyfreemusicserviceapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "description": "Discover and stream high-quality royalty-free music from Jamendo's extensive catalog",
+    "privacy": "public",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.royaltyfreemusicplayer.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.royaltyfreemusicplayer.app",
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -33,10 +44,29 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c4dbc282-920c-47bb-8c1e-d8fb3f70713b"
+      }
+    },
+    "owner": "brucehe",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c4dbc282-920c-47bb-8c1e-d8fb3f70713b"
     }
   }
 }
