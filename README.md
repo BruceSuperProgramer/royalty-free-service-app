@@ -2,6 +2,14 @@
 
 A beautiful, modern React Native app for discovering and streaming high-quality royalty-free music from Jamendo's extensive catalog. Built with Expo, TypeScript, and Redux Toolkit for a smooth cross-platform experience.
 
+
+## 🎬 App Demo
+
+<video width="100%" controls>
+  <source src="https://drive.google.com/uc?id=164SrOH8MV-ZFWH_bt1p2dpseO3HPpYlu" type="video/mp4">
+  Your browser does not support the video tag. <a href="https://drive.google.com/file/d/164SrOH8MV-ZFWH_bt1p2dpseO3HPpYlu/view?usp=sharing">View Demo Video</a>
+</video>
+
 ## ✨ Features
 
 - **🎼 Music Discovery**: Browse thousands of high-quality royalty-free tracks
