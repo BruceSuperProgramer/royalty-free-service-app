@@ -5,10 +5,9 @@ A beautiful, modern React Native app for discovering and streaming high-quality 
 
 ## 🎬 App Demo
 
-<video width="100%" controls>
-  <source src="https://drive.google.com/uc?id=164SrOH8MV-ZFWH_bt1p2dpseO3HPpYlu" type="video/mp4">
-  Your browser does not support the video tag. <a href="https://drive.google.com/file/d/164SrOH8MV-ZFWH_bt1p2dpseO3HPpYlu/view?usp=sharing">View Demo Video</a>
-</video>
+[![Watch Demo Video](https://img.shields.io/badge/▶️_Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/164SrOH8MV-ZFWH_bt1p2dpseO3HPpYlu/view?usp=sharing)
+
+> Click the button above to watch the app demo video showing the music discovery, search, and playback features in action!
 
 ## ✨ Features
 
