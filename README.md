@@ -2,8 +2,6 @@
 
 A beautiful, modern React Native app for discovering and streaming high-quality royalty-free music from Jamendo's extensive catalog. Built with Expo, TypeScript, and Redux Toolkit for a smooth cross-platform experience.
 
-![App Icon](./assets/images/icon.png)
-
 ## ✨ Features
 
 - **🎼 Music Discovery**: Browse thousands of high-quality royalty-free tracks
